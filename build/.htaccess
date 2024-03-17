@@ -1,8 +1,6 @@
 <IfModule mod_rewrite.c>
-  RewriteEngine On RewriteBase /subdirectory # If the request is for index.html,
-  stop processing further rules RewriteRule ^index\.html$ - [L] # If the
-  requested file, directory, or symbolic link doesn't exist, # rewrite the
-  request to /subdirectory/index.html RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME} !-l
-  RewriteRule ^(.*)$ /subdirectory/index.html [L]
+  RewriteEngine On RewriteBase /subdirectory RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l RewriteRule ^(.*)$
+  /subdirectory/index.html [L]
 </IfModule>
