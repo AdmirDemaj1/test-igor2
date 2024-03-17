@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React With Igor Rada 2
+          Learn React With Igor Rada 34
         </a>
       </header>
     </div>
