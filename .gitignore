@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+# production
+.prettierignore
 
 # misc
 .DS_Store
