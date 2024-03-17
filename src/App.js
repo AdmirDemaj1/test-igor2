@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gof Kac 33
+          Gof Kac 44
         </a>
       </header>
     </div>
